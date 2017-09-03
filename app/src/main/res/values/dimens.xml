@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="main_icon_dimen">1dp</dimen>
+
+    <dimen name="app_info_padding1">6dp</dimen>
+    <dimen name="app_info_padding2">12dp</dimen>
+    <dimen name="app_info_edit_text_height">32dp</dimen>
+
+</resources>

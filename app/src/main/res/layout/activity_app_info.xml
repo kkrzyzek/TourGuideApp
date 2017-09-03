@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.tourguide.AppInfoActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/android_oreo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/to_see_background_single_view"
+            android:fontFamily="sans-serif-medium"
+            android:paddingBottom="@dimen/app_info_padding2"
+            android:paddingLeft="@dimen/app_info_padding1"
+            android:paddingRight="@dimen/app_info_padding1"
+            android:paddingTop="@dimen/app_info_padding2"
+            android:text="@string/send_message_to"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/mail_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_info_edit_text_height"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/white"
+            android:hint="@string/enter_message"
+            android:imeOptions="actionSend"
+            android:inputType="textCapSentences" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="4"
+            android:background="@color/to_see_background_single_view"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/app_info_padding2"
+            android:paddingLeft="@dimen/app_info_padding1"
+            android:paddingRight="@dimen/app_info_padding1"
+            android:paddingTop="@dimen/app_info_padding2"
+            android:text="@string/app_made_by"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/facebook_image_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/facebook"
+            android:background="?android:attr/selectableItemBackground"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/min_sdk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/to_see_background_single_view"
+        android:fontFamily="sans-serif-thin"
+        android:paddingLeft="@dimen/app_info_padding1"
+        android:text="@string/minimum_sdk"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/target_sdk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/min_sdk"
+        android:background="@color/to_see_background_single_view"
+        android:fontFamily="sans-serif-thin"
+        android:paddingLeft="@dimen/app_info_padding1"
+        android:text="@string/target_sdk"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/target_sdk"
+        android:background="@color/to_see_background_single_view"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:paddingLeft="@dimen/app_info_padding1"
+        android:text="@string/app_made_with"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.tourguide.MainActivity">
+
+    <ImageView
+        android:id="@+id/panorama_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/test_image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/map_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/main_icon_dimen"
+            android:layout_marginRight="@dimen/main_icon_dimen"
+            android:layout_marginTop="@dimen/main_icon_dimen"
+            android:layout_weight="1"
+            android:background="@color/city_map_background">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/map" />
+
+            <TextView
+                style="@style/CategoryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/city_map" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/to_see_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/main_icon_dimen"
+            android:layout_marginTop="@dimen/main_icon_dimen"
+            android:layout_weight="1"
+            android:background="@color/to_see_background">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/see" />
+
+            <TextView
+                style="@style/CategoryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/to_see" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/restaurants_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/main_icon_dimen"
+            android:layout_marginLeft="@dimen/main_icon_dimen"
+            android:layout_marginTop="@dimen/main_icon_dimen"
+            android:layout_weight="1"
+            android:background="@color/restaurants_background">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/restaurant" />
+
+            <TextView
+                style="@style/CategoryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/restaurants" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/photos_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/main_icon_dimen"
+            android:layout_weight="1"
+            android:background="@color/photos_background">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/camera" />
+
+            <TextView
+                style="@style/CategoryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/photos" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/trumpet_call_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/trumpet_call_background">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/trumpet" />
+
+            <TextView
+                style="@style/CategoryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trumpet_call" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/app_info_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_icon_dimen"
+            android:layout_weight="1"
+            android:background="@color/app_info_background">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/info" />
+
+            <TextView
+                style="@style/CategoryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_info" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

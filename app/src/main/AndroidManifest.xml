@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.tourguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ToSeeActivity"
+            android:label="@string/to_see"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ToSeeTheme" />
+        <activity
+            android:name=".PhotosActivity"
+            android:label="@string/photos"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/PhotosTheme" />
+        <activity
+            android:name=".RestaurantsActivity"
+            android:label="@string/restaurants"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/RestaurantsTheme" />
+        <activity
+            android:name=".SinglePhotoActivity"
+            android:parentActivityName=".PhotosActivity"
+            android:theme="@style/PhotosTheme" />
+        <activity android:name=".AppInfoActivity"
+            android:label="@string/app_info"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppInfoTheme"/>
+    </application>
+
+</manifest>

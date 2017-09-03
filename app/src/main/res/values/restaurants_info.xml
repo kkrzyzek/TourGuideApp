@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="restaurants_cousine">
+        <item>Japanese, Sushi, Asian</item>
+        <item>Mediterranean, Polish, International, European, Vegetarian Friendly, Gluten Free Options, Vegan Options</item>
+        <item>Polish, Eastern European, Central European, Vegetarian Friendly, Vegan Options, Gluten Free Options</item>
+        <item>Fast Food, European, Vegetarian Friendly, Vegan Options</item>
+        <item>European, Polish, Eastern European, Central European, Vegetarian Friendly, Gluten Free Options</item>
+        <item>Indian, Asian, Vegetarian Friendly, Vegan Options, Gluten Free Options</item>
+        <item>Polish, Eastern European, Central European, Vegetarian Friendly, Gluten Free Options</item>
+        <item>Contemporary, Fusion, Healthy, Polish, European, Vegetarian Friendly, Gluten Free Options, Vegan Options</item>
+        <item>Japanese, Seafood, Sushi, Asian, Vegetarian Friendly, Vegan Options, Gluten Free Options</item>
+        <item>Italian, American, Bar</item>
+        <item>Polish, European, Eastern European, Central European, Vegetarian Friendly, Vegan Options, Gluten Free Options</item>
+        <item>Italian, European, Vegetarian Friendly, Vegan Options, Gluten Free Options</item>
+        <item>Polish, European, Eastern European, Central European, Vegetarian Friendly, Vegan Options</item>
+    </string-array>
+
+    <string-array name="restaurants_name">
+        <item>Nago Sushi &amp; Sake</item>
+        <item>Albertina Restaurant &amp; Wine</item>
+        <item>Restauracja Starka</item>
+        <item>Vegab</item>
+        <item>Old Town Restaurant Wine &amp; Bar</item>
+        <item>Taste of India</item>
+        <item>Trezo Restauracja</item>
+        <item>Zielona Kuchnia</item>
+        <item>Youmiko Sushi</item>
+        <item>Movida Cocktail Bar</item>
+        <item>Introligatornia Smaku</item>
+        <item>Bianca</item>
+        <item>Przystanek Pierogarnia</item>
+    </string-array>
+
+    <string-array name="restaurants_website">
+        <item>http://nagosushiandsake.pl/</item>
+        <item>http://albertinarestaurant.pl/</item>
+        <item>http://www.starka-restauracja.pl/</item>
+        <item>https://www.facebook.com/vegab2015/</item>
+        <item>http://old-town.com.pl/</item>
+        <item>https://www.facebook.com/tasteofindiakrakow/</item>
+        <item>http://trezo.pl/</item>
+        <item>http://zielonakuchnia.eu/pl/</item>
+        <item>https://www.facebook.com/YoumikoSushi/</item>
+        <item>http://www.movida-bar.pl/en/</item>
+        <item>https://www.facebook.com/IntroligatorniaSmaku/</item>
+        <item>http://biancaristorante.pl/</item>
+        <item>http://przystanek-pierogarnia.pl/</item>
+    </string-array>
+
+</resources>

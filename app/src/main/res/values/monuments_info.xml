@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="wawel_short_description">The Wawel Castle is a castle residency located in central Krakow, Poland.
+                Built at the behest of King Casimir III the Great, it consists of a number of structures situated around
+                the Italian-styled main courtyard.</string>
+
+        <string name="wawel_long_description">The castle, being one of the largest in Poland,
+                represents nearly all European architectural styles of medieval, renaissance and baroque periods.
+                The Wawel Royal Castle and the Wawel Hill constitute the most historically and culturally significant site in the country.
+                In 1978 it was declared a UNESCO World Heritage Site as part of the Historic Centre of Kraków.
+                For centuries the residence of the kings of Poland and the symbol of Polish statehood,
+                the Castle is now one of the country’s premier art museums. Established in 1930,
+                the museum encompasses ten curatorial departments responsible for collections of paintings,
+                including an important collection of Italian Renaissance paintings, prints, sculpture, textiles,
+                among them the Sigismund II Augustus tapestry collection, goldsmith’s work, arms and armor, ceramics,
+                Meissen porcelain, and period furniture. The museum’s holdings in oriental art include the largest collection
+                of Ottoman tents in Europe. With seven specialized conservation studios, the museum is also an important center
+                for the conservation of works of art.</string>
+
+        <string name="mariacki_short_description">Church of Our Lady Assumed into Heaven (also known as Saint Mary\'s Church)
+                is a Brick Gothic church adjacent to the Main Market Square in Kraków, Poland.</string>
+
+        <string name="mariacki_long_description">Built in the 14th century, its foundations date back to the early 13th century
+                and serve as one of the best examples of Polish Gothic architecture. Standing 80 m (262 ft) tall, it is particularly
+                famous for its wooden altarpiece carved by Veit Stoss (Wit Stwosz). On every hour, a trumpet signal—called the
+                Hejnał mariacki—is played from the top of the taller of Saint Mary\'s two towers. The plaintive tune breaks off
+                in mid-stream, to commemorate the famous 13th century trumpeter, who was shot in the throat while sounding the
+                alarm before the Mongol attack on the city. The noon-time hejnał is heard across Poland and abroad broadcast live
+                by the Polish national Radio 1 Station.</string>
+
+        <string name="mound_short_description">Kościuszko Mound (Polish: kopiec Kościuszki) in Kraków, Poland, erected by Cracovians
+                in commemoration of the Polish national leader Tadeusz Kościuszko, is an artificial mound.</string>
+
+        <string name="mound_long_description">A serpentine path leads to the top, approx. 326 metres (1,070 ft) above sea level, with a panoramic
+                view of the Vistula River and the city. It was completed in November 1823. The location selected for the monument was the natural
+                Blessed Bronisława Hill (Polish: Wzgórze bł. Bronisławy), also known as Sikornik, situated in the western part of Kraków\'s Zwierzyniec District.
+                Kościuszko Mound is one of Kraków\'s four memorial mounds, consisting of two prehistoric mounds, Krakus Mound and Wanda Mound, and two modern ones,
+                Piłsudski Mound and Kościuszko Mound.</string>
+
+        <string name="museum_short_description">The National Museum in Kraków, popularly abbreviated as MNK, established in 1879, is the main branch of Poland\'s
+                National Museum, which has several independent branches with permanent collections around the country.</string>
+
+        <string name="museum_long_description">The Museum consists of 21 departments which are divided by art period; 11 galleries, 2 libraries, and 12 conservation
+                workshops. It holds some 780,000 art objects, spanning from classical archeology to modern art, with special focus on Polish painting.</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">City of Krakow</string>
+
+    <string name="city_map">City Map</string>
+    <string name="to_see">To See</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="photos">Photos</string>
+    <string name="trumpet_call">Trumpet Call</string>
+    <string name="app_info">App Info</string>
+
+    <string name="send_message_to">Send message to Krzysztof:</string>
+    <string name="enter_message">Enter message</string>
+    <string name="app_made_by">App made by Krzysztof Krzyzek</string>
+    <string name="minimum_sdk">Minimum SDK version: 15 - ICE CREAM SANDWICH</string>
+    <string name="target_sdk">Target SDK version: 26 - NOUGAT</string>
+    <string name="app_made_with">App made with: Android Studio 2.3.3</string>
+
+</resources>

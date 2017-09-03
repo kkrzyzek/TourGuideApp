@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="photos_view_action_bar_title">
+        <item>Krakow Artists</item>
+        <item>Historic Tram</item>
+        <item>Wawel Castle</item>
+        <item>Wawel Cathedral</item>
+        <item>Tower View</item>
+        <item>Slowacki Theatre</item>
+        <item>Krakow Cathedral</item>
+        <item>Main Square Sculpture</item>
+        <item>Krakow Horses</item>
+        <item>Main Square</item>
+        <item>Krakow Landscape</item>
+        <item>Main Square View</item>
+        <item>Painting Artists</item>
+        <item>Pigeon</item>
+        <item>Wawel Gate</item>
+    </string-array>
+
+</resources>
